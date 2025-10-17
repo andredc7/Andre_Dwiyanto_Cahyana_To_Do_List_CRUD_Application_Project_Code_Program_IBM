@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Andre Dwiyanto Cahyana Portofolio — To‑Do List</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="icon" href="assets/6978344.png" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1 class="title">Andre Dwiyanto Cahyana — To‑Do List</h1>
+      <p class="subtitle">Sederhana. Cepat. Fokus pada produktivitas.</p>
+    </header>
+
+    <section class="todo-app">
+      <form id="todo-form" class="todo-form" autocomplete="off">
+        <input id="todo-input" type="text" placeholder="Tambahkan tugas baru..." />
+        <input id="todo-date" type="date" aria-label="Tanggal" />
+        <button type="submit" class="btn primary">Tambah</button>
+      </form>
+
+      <div class="controls">
+        <input id="search" type="search" placeholder="Cari tugas..." />
+        <select id="filter">
+          <option value="all">Semua</option>
+          <option value="active">Belum Selesai</option>
+          <option value="done">Selesai</option>
+        </select>
+        <button id="clear-all" class="btn danger">Hapus Semua</button>
+      </div>
+
+      <ul id="todo-list" class="todo-list" aria-live="polite"></ul>
+    </section>
+
+    <footer class="footer">
+      <small>Andre DC — To‑Do List • Built with HTML/CSS/JS • LocalStorage</small>
+    </footer>
+  </main>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
