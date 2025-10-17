@@ -1,4 +1,4 @@
-# Andre DC Portfolio — CRUD To-Do List
+# Andre Dwiyanto Cahyana Portfolio — CRUD To-Do List
 
 ## Description
 Aplikasi To‑Do List sederhana namun rapi yang dibuat dengan vanilla HTML, CSS, dan JavaScript. Aplikasi ini mendemonstrasikan kemampuan CRUD (Create, Read, Update, Delete) lengkap dengan penyimpanan lokal (localStorage), antarmuka responsif, dan pengalaman pengguna yang bersih sehingga cocok dimasukkan ke portofolio.
