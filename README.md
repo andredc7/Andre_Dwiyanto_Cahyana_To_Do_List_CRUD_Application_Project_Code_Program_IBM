@@ -59,4 +59,4 @@ Lihat folder `screenshots/` untuk capture demo aplikasi (desktop dan mobile).
 ## Contact
 Nama: Andre Dwiyanto Cahyana 
 Email: dwiyantoandre99@gmail.com  
-GitHub: https://github.com/andredc7 (ganti sesuai milikmu)
+GitHub: https://github.com/andredc7
